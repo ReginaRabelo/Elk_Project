@@ -70,7 +70,7 @@ The configuration details of each machine may be found below.
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the jump server machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- 104.171.88.184
+- my own public IP
 
 Machines within the network can only be accessed by the jump server.
 - Which machine did you allow to access your ELK VM? The jump server. What was its IP address? 10.0.0.4
@@ -79,7 +79,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name           | Publicly Accessible | Allowed IP Addresses  |
 |----------------|---------------------|---------------------- |
-| Jump Box       | Yes                 | 104.171.88.184        |
+| Jump Box       | Yes                 | my own public IP      |
 | DVWA-vm1       | No                  | 10.0.0.4              |
 | DVWA-vm2       | No                  | 10.0.0.4              |
 | Elk Server     | No                  | 10.0.0.4              |
